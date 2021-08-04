@@ -1,0 +1,28 @@
+info {
+	version "0.3.1"
+	author "Chris"
+	date "01/09/2016"
+}
+attractor {
+	type lorenz
+	iterations 100000000
+	parameters <5.58441558441558, 7.52246753246753, 1.541, 0.094>
+}
+view {
+	mode liquid
+	width 2048
+	height 1536
+	scale 0.604369604319478
+	model_scale 0.0761854871640696
+	origin <0.0332562923431396, -0.00122165679931641, 7.5809458270669>
+	translation <0.000183910060230146, -0.031291663296113, 0>
+	rotation <-0.840620560663998, -0.346348585591752, -0.41641293237307, 1.53281467860686>
+	peak 679.184326171875
+	gamma 2.5
+	contrast 4
+	gradient {
+		variable color
+		colors <0, 0, 0, 0,
+		        1, 1, 1, 1>
+	}
+}

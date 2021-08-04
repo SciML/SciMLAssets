@@ -1,0 +1,29 @@
+info {
+	version "0.3.1"
+	author "Chris"
+	date "01/09/2016"
+}
+attractor {
+	type icon
+	iterations 100000000
+	parameters <19, 2.913, 2.921, -2.477,
+	            0.02, 0.321>
+}
+view {
+	mode gas
+	width 640
+	height 480
+	scale 0.529898365117193
+	model_scale 0.759055601777601
+	origin <-0.000135393027110353, -3.53455543518066e-05, 0.440711624920368>
+	translation <-0.00478968558919305, 0.0179137328243317, 0>
+	rotation <-0.945943051540238, 0.324312782358027, 0.00360033914210013, 3.0601256758414>
+	peak 19117.283203125
+	gamma 2.5
+	contrast 4
+	gradient {
+		variable color
+		colors <0, 0, 0, 0,
+		        1, 1, 1, 1>
+	}
+}
